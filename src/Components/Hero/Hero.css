@@ -1,11 +1,13 @@
 .heroWrapper {
-  border: 1px solid rgb(255, 0, 0);
-  background-color: palevioletred;
+  /* border: 1px solid rgb(255, 0, 0); */
+  /* background-color: palevioletred; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-gap: 20px; */
   justify-content: center;
   padding-top: 122px;
+  margin-bottom: 85px;
+  width: 98%;
+  margin-left: 80px;
 }
 
 .heroLeft {
@@ -18,7 +20,7 @@
   padding-top: 24px;
 
   padding-bottom: 10px;
-  margin-left: 10px;
+  margin-left: 26px;
 }
 
 .heroHeadings {
@@ -67,12 +69,14 @@
 .heroRight {
   /* border: 1px solid black; */
   /* background-color: rgb(211, 255, 50); */
-  width: 95%;
-  margin: auto;
+  /* width: 95%; */
+  width: 82%;
+  margin-left: 50px;
 }
 
 .heroRight .heroImg {
   width: 82%;
+  text-align: end;
 }
 
 .heroImg img {

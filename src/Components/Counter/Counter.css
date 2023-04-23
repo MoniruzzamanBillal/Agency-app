@@ -1,0 +1,31 @@
+.counter {
+  /* border: 1px solid green; */
+  width: 80%;
+  margin: auto;
+  /* background-color: aqua; */
+}
+
+.counterWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counterItem {
+  width: 25%;
+}
+
+.counterNumber,
+.counterTitle {
+  background: var(--counter-color);
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.counterNumber {
+  font-size: 2.3rem;
+}
+
+.counterTitle {
+  font-size: 1.3rem;
+}

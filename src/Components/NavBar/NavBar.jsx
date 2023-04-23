@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./NavBar/NavBar.css";
+// import "./NavBar/NavBar.css";
+import "./NavBar.css";
 
 const NavLinks = [
   {
