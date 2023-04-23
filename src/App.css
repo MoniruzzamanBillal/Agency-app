@@ -62,7 +62,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+ scroll-behavior: smooth;
 }
 
 body{
@@ -85,10 +85,10 @@ h1,h2,h3{
 }
 
 .container{
-/* border: 1px solid blue; */
+border: 1px solid blue;
   position: relative;
   padding: 0px 12px;
-  width: 93%;
+  width: 92%;
   margin: auto;
   
 }
