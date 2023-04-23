@@ -1,0 +1,80 @@
+.heroWrapper {
+  border: 1px solid rgb(255, 0, 0);
+  background-color: palevioletred;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-gap: 20px; */
+  justify-content: center;
+  padding-top: 122px;
+}
+
+.heroLeft {
+  /* border: 1px solid black; */
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  padding-top: 24px;
+
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+.heroHeadings {
+  /* border: 1px solid black; */
+  /* background-color: yellow; */
+  font-size: 1.3rem;
+  line-height: 50px;
+}
+
+.heroBranding {
+  color: var(--primary-color);
+}
+
+.description {
+  color: var(--small-text-color);
+  line-height: 30px;
+  font-size: 0.9rem;
+  margin-top: 24px;
+}
+
+.heroButton {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 1.1rem;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.6rem 1.4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 0.2rem;
+}
+
+.btn1 {
+  background: var(--btn-secondary-bg);
+  border-radius: 0.2rem;
+}
+.btn2 {
+  background: var(--btn-primary-bg);
+  border-radius: 0.2rem;
+}
+
+.heroRight {
+  /* border: 1px solid black; */
+  /* background-color: rgb(211, 255, 50); */
+  width: 95%;
+  margin: auto;
+}
+
+.heroRight .heroImg {
+  width: 82%;
+}
+
+.heroImg img {
+  width: 90%;
+}

@@ -62,11 +62,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body{
-  /* background: var(--body-bg); */
-   background: rebeccapurple;
+  background: var(--body-bg);
+   /* background: rebeccapurple; */
   font-family: var(--font-name);
 }
 
@@ -84,9 +85,10 @@ h1,h2,h3{
 }
 
 .container{
-  border: 1px solid black;
-  background-color: red;
-  padding: 5px;
-  width: 96%;
+
+  position: relative;
+  padding: 0px 12px;
+  width: 93%;
   margin: auto;
+  
 }

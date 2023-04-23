@@ -1,11 +1,21 @@
-.NavWrapper {
-  position: sticky;
+.navContainer {
+  position: fixed;
   z-index: 999;
-  border: 1px solid black;
-  background-color: aquamarine;
-  width: 100%;
-  height: 60px;
+  width: 92%;
   line-height: 60px;
+  /* background-color: blue; */
+  background: var(--body-bg);
+  /* box-shadow: rgba(99, 99, 241, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+  box-shadow: rgba(99, 99, 241, 0.25) 0px 50px 100px -20px,
+    rgba(236, 99, 99, 0.3) 0px 30px 60px -30px;
+}
+
+.NavWrapper {
+  position: relative;
+  /* border: 1px solid black; */
+  /* background-color: aquamarine; */
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,25 +26,29 @@
 }
 
 .middle {
-  border: 1px solid black;
-  background-color: rgb(255, 173, 65);
-  width: 45%;
+  /* background-color: rgb(255, 173, 65); */
+  width: 46%;
   position: relative;
 }
 .Menu {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
   list-style: none;
+}
+
+.Menu_links {
+  font-weight: 400;
+  font-size: 1.1rem;
 }
 
 .Menu_links:hover {
   color: var(--link-active);
 }
 
-.right {
-  border: 1px solid black;
-  background-color: burlywood;
+.navRight {
+  /* border: 1px solid black; */
+  /* background-color: burlywood; */
 
   display: flex;
   justify-content: space-around;
@@ -44,12 +58,15 @@
 
 .light-theme {
   display: block;
+  /* color: rgba(255, 255, 255, 0.637); */
+  color: rgb(255 255 255 / 81%);
+  cursor: pointer;
 }
 
 .HamBurgerMenu {
   display: none;
-  border: 1px solid black;
-  background-color: azure;
+  /* border: 1px solid black; */
+  /* background-color: azure; */
   font-size: 24px;
   width: 42px;
   height: 56px;
@@ -57,35 +74,40 @@
   cursor: pointer;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 860px) {
   .middle .Menu {
     display: none;
   }
 
   .Menu {
-    /* height: 80vh; */
-    width: 50vw;
+    display: none;
+    width: 30vw;
     padding: 20px 0;
     margin-left: 200%;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 60%;
     background: #0e2431;
     transform: translate(35%, 10%);
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    /* transition: all 2s; */
+
+    transition: all 1s;
   }
 
   .Menu.MobileMenuLink {
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
     margin-left: 0;
     /* transition: all 5s ease-in-out; */
   }
 
   .light-theme {
     display: none;
+  }
+
+  .light-theme.MobileMenuLink {
+    display: block;
   }
 
   .HamBurgerMenu {
