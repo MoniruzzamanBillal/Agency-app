@@ -1,0 +1,89 @@
+.BlogContainer {
+  /* border: 1px solid red; */
+  /* background-color: rgb(205, 255, 24); */
+  margin-bottom: 92px;
+}
+
+.BlogWrapper {
+  /* border: 1px solid black; */
+  /* background-color: rgb(60, 255, 157); */
+  width: 90%;
+  margin: auto;
+  padding: 8px;
+}
+
+.BlogTop {
+  /* border: 1px solid black; */
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.BlogTopHeading {
+  /* color: var(--primary-color); */
+  color: var(--btn-primary-bg);
+  padding-bottom: 12px;
+}
+
+.BlogTopDescriptionSpan {
+  color: var(--primary-color);
+}
+
+.BlogCardContainer {
+  /* border: 1px solid black; */
+  /* background-color: pink; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BlogCard {
+  /* border: 1px solid black; */
+  /* background-color: rgb(22, 245, 252); */
+  background: var(--card-bg);
+  width: 27%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 36px;
+  border-radius: 8px;
+}
+
+.BlogCard .BlogCardTop {
+  color: var(--heading-color);
+  padding-bottom: 12px;
+}
+
+.BlogVideoContainer {
+  /* background-color: red; */
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.BlogVideoContainer img {
+  width: 100%;
+}
+
+.BlogCard:nth-child(2) .BlogVideoContainer {
+  margin-top: -70px;
+  margin-bottom: -30px;
+}
+
+.BlogCard:nth-child(2) {
+  width: 30%;
+  margin-top: -18px;
+}
+
+.blogCardDescription {
+  color: var(--small-text-color);
+}
+
+.BlogCardIcon {
+  margin-bottom: 12px;
+  margin-top: 14px;
+}
+
+.BlogCardIcon i {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+}
