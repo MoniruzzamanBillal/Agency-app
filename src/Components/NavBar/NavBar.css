@@ -15,14 +15,15 @@
   position: relative;
   /* border: 1px solid black; */
   /* background-color: aquamarine; */
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo h1 {
+.logo h1 a {
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 .middle {
@@ -75,18 +76,14 @@
 }
 
 @media (max-width: 860px) {
-  .middle .Menu {
-    display: none;
-  }
-
   .Menu {
     display: none;
     width: 30vw;
     padding: 20px 0;
     margin-left: 200%;
     position: absolute;
-    top: 0;
-    left: 60%;
+    top: -5px;
+    left: 54%;
     background: #0e2431;
     transform: translate(35%, 10%);
 

@@ -7,13 +7,14 @@ const NavLinks = [
     path: "#Home",
     display: "Home",
   },
-  {
-    path: "#About",
-    display: "About",
-  },
+
   {
     path: "#Services",
     display: "Services",
+  },
+  {
+    path: "#About",
+    display: "About",
   },
   {
     path: "#Projects",
@@ -34,7 +35,10 @@ export default function NavBar() {
         <div className="NavWrapper">
           {/* navLeft side  */}
           <div className="logo navLeft">
-            <h1>Logo</h1>
+            {/* <h1>Logo</h1> */}
+            <h1>
+              <a href="#Home">Logo</a>
+            </h1>
           </div>
           {/* navLeft side ends  */}
           {/* middle side  */}

@@ -1,0 +1,112 @@
+.AboutContainer {
+  /* border: 1px solid red; */
+  /* background-color: bisque; */
+
+  margin-bottom: 90px;
+}
+
+.AboutWrapper {
+  /* border: 1px solid blue; */
+  /* background-color: rgb(255, 8, 136); */
+  padding: 8px;
+  display: grid;
+  width: 88%;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: 1.5fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.AboutLeft {
+  /* border: 1px solid black; */
+  /* background-color: aqua; */
+  margin: 0px auto;
+}
+
+.AboutTopHeading {
+  color: var(--primary-color);
+  padding-bottom: 8px;
+  font-size: 1.3rem;
+}
+
+.AboutHeadingHighlight {
+  color: var(--primary-color);
+  padding-bottom: 18px;
+  font-size: 1.8rem;
+}
+
+.AboutHeadingDescription {
+  line-height: 25px;
+  padding-bottom: 18px;
+  color: var(--small-text-color);
+}
+
+.AboutBody {
+  /* border: 1px solid black; */
+  /* background-color: rgb(21, 0, 255); */
+  padding: 5px;
+}
+
+.AboutBodyContainer {
+  /* border: 1px solid black; */
+  /* background-color: rgb(137, 255, 40); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color: var(--heading-color);
+}
+
+.AboutBodyLeft {
+  background: var(--icon-bg);
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: rgba(65, 65, 86, 0.148) 0px 13px 27px -5px,
+    rgba(72, 58, 58, 0.324) 0px 8px 16px -8px;
+}
+
+.AboutBodyLeft i {
+  color: var(--primary-color);
+  font-size: 1.7rem;
+}
+
+.AboutBodyRight {
+  width: 86%;
+  /* background-color: royalblue; */
+  padding-left: 6px;
+}
+
+.AboutBodyRightHeading {
+  color: var(--heading-color);
+  padding-bottom: 5px;
+}
+.AboutBodyRightDescription {
+  color: var(--small-text-color);
+}
+
+.AboutRight {
+  /* width: 80%; */
+  width: 90%;
+  height: 86%;
+  margin: auto;
+  padding-top: 10px;
+  /* background-color: red; */
+}
+
+.AboutRightPic {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.AboutRightPic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}

@@ -43,7 +43,7 @@ export default function Service() {
   return (
     <>
       <div className="container">
-        <div className="service">
+        <div className="service" id="Services">
           <div className="serviceWrapper">
             <div className="serviceTopContainer">
               <h3 className="serviceHighlight">Our services</h3>
@@ -53,9 +53,9 @@ export default function Service() {
 
             <div className="serviceCardContainer">
               {CardInfo.map((ele, index) => (
-                <div className="cardContrainer">
+                <div className="cardContrainer" key={index}>
                   <div className="cardTop">
-                    <i className={`${ele.icon}`}></i>
+                    <i className={ele.icon}></i>
                   </div>
 
                   <div className="cardMid">

@@ -2,7 +2,7 @@
   /* border: 1px solid rgb(0, 4, 255); */
   text-align: center;
   /* background-color: aqua; */
-  margin-bottom: 90px;
+  margin-bottom: 100px;
 }
 
 .serviceHighlight {
@@ -24,8 +24,6 @@
   background: var(--card-bg);
   padding: 15px;
   border-radius: 6px;
-  /* box-shadow: rgba(146, 146, 210, 0.25) 0px 13px 27px -5px,
-    rgba(196, 125, 125, 0.698) 0px 8px 16px -8px; */
   cursor: pointer;
   transition: all 0.2s ease-in;
 }

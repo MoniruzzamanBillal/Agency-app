@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <>
       <div className="container">
-        <div className="heroWrapper">
+        <div className="heroWrapper" id="Home">
           <div className="heroLeft">
             <div className="heroHeadings">
               <h1>We're creating perfect</h1>
