@@ -85,7 +85,7 @@ h1,h2,h3{
 }
 
 .container{
-border: 1px solid blue;
+/* border: 1px solid blue; */
   position: relative;
   padding: 0px 12px;
   width: 92%;

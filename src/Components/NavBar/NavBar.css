@@ -3,8 +3,8 @@
   z-index: 999;
   width: 90%;
   line-height: 60px;
-  /* background: var(--body-bg); */
-  background: blue;
+  background: var(--body-bg);
+  /* background: blue; */
   box-shadow: rgba(99, 99, 241, 0.25) 0px 50px 100px -20px,
     rgba(236, 99, 99, 0.3) 0px 30px 60px -30px;
   /* border: 1px solid yellow; */
