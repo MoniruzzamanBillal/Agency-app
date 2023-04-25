@@ -84,10 +84,10 @@
     margin-left: 0;
   }
 
-  .light-theme {
-    /* display: none; */
-    /* display: block; */
-  }
+  /* .light-theme {
+     display: none; 
+    
+  } */
 
   .light-theme.MobileMenuLink {
     display: block;

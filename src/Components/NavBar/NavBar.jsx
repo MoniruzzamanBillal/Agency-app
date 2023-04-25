@@ -26,7 +26,7 @@ const NavLinks = [
   },
 ];
 
-export default function NavBar() {
+export default function NavBar({ theme, ToggleTheme }) {
   const [menuActive, setMenuActive] = useState(false);
 
   return (
@@ -64,10 +64,7 @@ export default function NavBar() {
           {/* middle side ends  */}
           {/* navRight side  */}
           <div className=" navRight">
-            <div
-              className="light-theme"
-              onClick={() => console.log("Mode click done")}
-            >
+            <div className="light-theme" onClick={() => ToggleTheme()}>
               <i className="ri-sun-line"></i>
               <span>Light Mode</span>
             </div>

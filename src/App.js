@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 
 import About from "./Components/About/About";
@@ -11,9 +12,20 @@ import Service from "./Components/Service/Service";
 import Testimonial from "./Components/Testimonial/Testimonial";
 
 function App() {
+  const [theme, changeTheme] = useState(" ");
+
+  function ToggleTheme() {
+    console.log("theme click");
+    return theme === " " ? changeTheme("light-theme") : changeTheme(" ");
+  }
+
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
   return (
     <>
-      <NavBar />
+      <NavBar theme={theme} ToggleTheme={ToggleTheme} />
       <Hero />
       <Counter />
       <Service />
