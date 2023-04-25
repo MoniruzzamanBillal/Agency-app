@@ -3,6 +3,7 @@ import "./App.css";
 import About from "./Components/About/About";
 import Blog from "./Components/Blog/Blog";
 import Counter from "./Components/Counter/Counter";
+import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import NavBar from "./Components/NavBar/NavBar";
 import NewsLetter from "./Components/NewsLetter/NewsLetter";
@@ -20,6 +21,7 @@ function App() {
       <Blog />
       <Testimonial />
       <NewsLetter />
+      <Footer />
     </>
   );
 }
