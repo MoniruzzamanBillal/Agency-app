@@ -67,7 +67,7 @@
 
 body{
   background: var(--body-bg);
-   /* background: rebeccapurple; */
+   /* background: rgb(180, 130, 229); */
   font-family: var(--font-name);
 }
 

@@ -64,7 +64,10 @@ export default function NavBar() {
           {/* middle side ends  */}
           {/* navRight side  */}
           <div className=" navRight">
-            <div className="light-theme">
+            <div
+              className="light-theme"
+              onClick={() => console.log("Mode click done")}
+            >
               <i className="ri-sun-line"></i>
               <span>Light Mode</span>
             </div>

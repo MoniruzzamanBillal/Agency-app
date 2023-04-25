@@ -1,25 +1,19 @@
 .BlogContainer {
-  /* border: 1px solid red; */
-  /* background-color: rgb(205, 255, 24); */
   margin-bottom: 92px;
 }
 
 .BlogWrapper {
-  /* border: 1px solid black; */
-  /* background-color: rgb(60, 255, 157); */
   width: 90%;
   margin: auto;
   padding: 8px;
 }
 
 .BlogTop {
-  /* border: 1px solid black; */
   text-align: center;
   margin-bottom: 42px;
 }
 
 .BlogTopHeading {
-  /* color: var(--primary-color); */
   color: var(--btn-primary-bg);
   padding-bottom: 12px;
 }
@@ -29,16 +23,12 @@
 }
 
 .BlogCardContainer {
-  /* border: 1px solid black; */
-  /* background-color: pink; */
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .BlogCard {
-  /* border: 1px solid black; */
-  /* background-color: rgb(22, 245, 252); */
   background: var(--card-bg);
   width: 27%;
   padding-top: 16px;
@@ -55,7 +45,6 @@
 }
 
 .BlogVideoContainer {
-  /* background-color: red; */
   width: 100%;
   margin-bottom: 12px;
 }

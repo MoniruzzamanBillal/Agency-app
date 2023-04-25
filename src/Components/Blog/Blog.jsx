@@ -1,8 +1,8 @@
 import React from "react";
 import "./Blog.css";
-import videoImage from "../images/video.png";
-import ArticleImg from "../images/article.png";
-import CaseStudyImg from "../images/case-study.png";
+import videoImage from "../../images/video.png";
+import ArticleImg from "../../images/article.png";
+import CaseStudyImg from "../../images/case-study.png";
 
 const BlogCardInfo = [
   {
@@ -43,46 +43,23 @@ export default function Blog() {
             </div>
             <div className="BlogCardContainer">
               {BlogCardInfo.map((ele, index) => (
-                <div className="BlogCard">
+                <div className="BlogCard" key={index}>
                   <div className="CardWrapper">
                     <div className="BlogCardTop">
-                      {/* <h2>Video</h2> */}
                       <h2>{ele.heading}</h2>
                     </div>
                     <div className="BlogVideoContainer">
-                      {/* <img src={videoImage} alt="videoImage" /> */}
                       <img src={ele.img} alt="videoImage" />
                     </div>
                     <div className="BlogCardBottom">
-                      {/* <p className="blogCardDescription">
-                      To know about work.Watch some vid....
-                    </p> */}
                       <p className="blogCardDescription">{ele.describe}</p>
                     </div>
                     <div className="BlogCardIcon">
-                      {/* <i class="ri-arrow-right-line"></i> */}
-                      <i class={ele.icon}></i>
+                      <i className={ele.icon}></i>
                     </div>
                   </div>
                 </div>
               ))}
-
-              {/* <div className="CardWrapper">
-                <div className="BlogCardTop">
-                  <h2>Video</h2>
-                </div>
-                <div className="BlogVideoContainer">
-                  <img src={videoImage} alt="videoImage" />
-                </div>
-                <div className="BlogCardBottom">
-                  <p className="blogCardDescription">
-                    To know about work.Watch some vid....
-                  </p>
-                </div>
-                <div className="BlogCardIcon">
-                  <i class="ri-arrow-right-line"></i>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>
