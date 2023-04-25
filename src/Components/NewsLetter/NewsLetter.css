@@ -1,21 +1,15 @@
 .NewsLetterContainer {
-  /* border: 1px solid blue; */
-  /* background-color: pink; */
   background: var(--newsletter-bg);
   margin-bottom: 90px;
 }
 
 .NewsLetterWrapper {
-  /* border: 1px solid rgb(255, 0, 0); */
-  /* background-color: rgb(123, 255, 178); */
   margin: auto;
   width: 88%;
   padding: 14px 0;
 }
 
 .NewsLetterWrapperContainer {
-  /* border: 1px solid black; */
-  /* background-color: blueviolet; */
   padding: 8px;
   display: flex;
   justify-content: space-around;
@@ -27,34 +21,30 @@
 }
 
 .NewsLetterWrapperContainerRight {
-  width: 45%;
+  width: 46%;
 }
 .NewsLetterLeft {
-  /* border: 1px solid red; */
-  /* background-color: rgb(123, 255, 178); */
   margin-left: 25px;
 }
 
 .highlight {
-  color: var(--btn-primary-bg);
+  color: var(--primary-color);
   padding-bottom: 10px;
 }
 
 .NewsLetterLeftH1 {
-  /* border: 1px solid rgb(21, 0, 255); */
-  /* background-color: red; */
   font-size: 1.8rem;
   width: 90%;
   line-height: 36px;
 }
 
 .hiddenHighlight {
-  color: var(--btn-primary-bg);
+  color: var(--primary-color);
 }
 
 .NewsLetterRight {
   background-color: rgb(255, 255, 255);
-  padding: 0.2rem 0.8rem;
+  padding: 0.4rem 0.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,5 +65,10 @@
   cursor: pointer;
   color: #fff;
   border-radius: 0.2rem;
+
   background: var(--btn-primary-bg);
+}
+
+.light-theme .secondary_btn {
+  background: var(--btn-secondary-bg);
 }

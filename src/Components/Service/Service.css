@@ -22,10 +22,14 @@
   /* border: 1px solid red; */
   width: 22%;
   background: var(--card-bg);
+
   padding: 15px;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s ease-in;
+}
+.light-theme .cardContrainer {
+  background: #e1effb;
 }
 
 .cardContrainer:hover {
@@ -52,9 +56,17 @@
   margin-bottom: 18px;
 }
 
+.light-theme .cardTop {
+  background: var(--primary-color);
+}
+
 .cardTop i {
   color: var(--primary-color);
   font-size: 1.9rem;
+}
+
+.light-theme .cardTop i {
+  color: #fff;
 }
 
 .cardMid {

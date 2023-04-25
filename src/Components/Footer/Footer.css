@@ -6,7 +6,7 @@
 .FooterTopContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   padding: 5px;
 }
 
@@ -29,6 +29,8 @@
 .FooterBottomContainer {
   text-align: center;
   color: var(--small-text-color);
+
+  padding: 6px 0;
 }
 
 .FooterHighlight a {

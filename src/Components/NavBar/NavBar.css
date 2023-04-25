@@ -1,9 +1,16 @@
-.navContainer {
+.NavParentContainer {
   position: fixed;
   z-index: 999;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  background: var(--body-bg);
+}
+
+.navContainer {
+  margin: auto;
   width: 90%;
   line-height: 60px;
-  background: var(--body-bg);
   box-shadow: rgba(99, 99, 241, 0.25) 0px 50px 100px -20px,
     rgba(236, 99, 99, 0.3) 0px 30px 60px -30px;
 }
@@ -47,10 +54,15 @@
   color: var(--btn-primary-bg);
 }
 
-.light-theme {
+.changeTheme {
   display: block;
-  color: rgb(255 255 255 / 81%);
+  color: var(--small-text-color);
   cursor: pointer;
+}
+
+.changeTheme i {
+  margin-right: 4px;
+  font-size: 1.3rem;
 }
 
 .HamBurgerMenu {
@@ -83,11 +95,6 @@
     flex-direction: column;
     margin-left: 0;
   }
-
-  /* .light-theme {
-     display: none; 
-    
-  } */
 
   .light-theme.MobileMenuLink {
     display: block;

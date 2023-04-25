@@ -1,9 +1,12 @@
 .counter {
-  /* border: 1px solid green; */
   width: 80%;
   margin: auto;
-  /* background-color: aqua; */
-  margin-bottom: 90px;
+}
+
+.CounterContainer {
+  /* background-color: red; */
+  padding: 30px 0;
+  margin-bottom: 80px;
 }
 
 .counterWrapper {
