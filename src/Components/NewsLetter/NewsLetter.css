@@ -1,0 +1,79 @@
+.NewsLetterContainer {
+  /* border: 1px solid blue; */
+  /* background-color: pink; */
+  background: var(--newsletter-bg);
+  margin-bottom: 90px;
+}
+
+.NewsLetterWrapper {
+  /* border: 1px solid rgb(255, 0, 0); */
+  /* background-color: rgb(123, 255, 178); */
+  margin: auto;
+  width: 88%;
+  padding: 14px 0;
+}
+
+.NewsLetterWrapperContainer {
+  /* border: 1px solid black; */
+  /* background-color: blueviolet; */
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NewsLetterWrapperContainerLeft {
+  width: 50%;
+}
+
+.NewsLetterWrapperContainerRight {
+  width: 45%;
+}
+.NewsLetterLeft {
+  /* border: 1px solid red; */
+  /* background-color: rgb(123, 255, 178); */
+  margin-left: 25px;
+}
+
+.highlight {
+  color: var(--btn-primary-bg);
+  padding-bottom: 10px;
+}
+
+.NewsLetterLeftH1 {
+  /* border: 1px solid rgb(21, 0, 255); */
+  /* background-color: red; */
+  font-size: 1.8rem;
+  width: 90%;
+  line-height: 36px;
+}
+
+.hiddenHighlight {
+  color: var(--btn-primary-bg);
+}
+
+.NewsLetterRight {
+  background-color: rgb(255, 255, 255);
+  padding: 0.2rem 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.inputClass {
+  border: none;
+  outline: none;
+  padding: 0.8rem 1.3rem;
+  width: 70%;
+}
+
+.secondary_btn {
+  padding: 0.8rem 1.8rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 0.2rem;
+  background: var(--btn-primary-bg);
+}
