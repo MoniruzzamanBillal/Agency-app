@@ -43,7 +43,7 @@ export default function Service() {
   return (
     <>
       <div className="container">
-        <div className="service" id="Services">
+        <div className="service " id="Services">
           <div className="serviceWrapper">
             <div className="serviceTopContainer">
               <h3 className="serviceHighlight">Our services</h3>

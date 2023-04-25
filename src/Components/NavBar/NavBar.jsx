@@ -30,8 +30,8 @@ export default function NavBar() {
   const [menuActive, setMenuActive] = useState(false);
 
   return (
-    <div className="container">
-      <div className="navContainer">
+    <div className="container ">
+      <div className="navContainer ">
         <div className="NavWrapper">
           {/* navLeft side  */}
           <div className="logo navLeft">

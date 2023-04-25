@@ -1,27 +1,54 @@
-.FooterContainer {
-  border: 1px solid red;
-  background-color: azure;
-}
-
 .FooterWrapper {
-  border: 1px solid rgb(4, 0, 255);
-  background-color: rgb(226, 255, 97);
-  width: 98%;
+  width: 90%;
   margin: auto;
-  text-align: center;
-}
-
-.FooterContent {
-  border: 1px solid rgb(255, 0, 247);
-  background-color: rgb(222, 227, 200);
 }
 
 .FooterTopContainer {
-  border: 1px solid rgb(12, 219, 255);
-  background-color: rgb(255, 157, 157);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 40px;
+  padding: 5px;
+}
+
+.border {
+  padding: 8px;
+}
+
+.FooterTopFirstTop {
+  padding-bottom: 20px;
+}
+
+.FooterHighlight {
+  color: var(--primary-color);
+}
+.FooterTopPara {
+  color: var(--heading-color);
+  font-size: 0.9rem;
 }
 
 .FooterBottomContainer {
-  border: 1px solid rgb(255, 0, 0);
-  background-color: rgb(236, 255, 139);
+  text-align: center;
+  color: var(--small-text-color);
+}
+
+.FooterHighlight a {
+  color: var(--primary-color);
+}
+
+.FooterHighlightH2 {
+  padding-bottom: 6px;
+}
+
+.FooterTopFirstBottom {
+  line-height: 29px;
+  color: var(--small-text-color);
+}
+
+.FooterUl li {
+  margin-bottom: 28px;
+}
+
+.FooterUl li a {
+  font-size: 1rem;
+  font-weight: 400;
 }
