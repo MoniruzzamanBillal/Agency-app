@@ -10,15 +10,44 @@ import TestimonialPic3 from "../../images/ava-3.jpg";
 
 export default function Testimonial() {
   const settings = {
-    dots: true,
-    //   dots: false,
+    dots: false,
     infinite: true,
     speed: 1000,
     autoplay: true,
-    autplaySpeed: 2000,
+    autplaySpeed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
+  const UserData = [
+    {
+      description: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Omnis veniam consequuntur eaque, aut rem quia ipsam. Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+                      dolor.`,
+      img: TestimonialPic1,
+      name: "John Doe",
+      designation: "CEO,workstation",
+    },
+    {
+      description: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Omnis veniam consequuntur eaque, aut rem quia ipsam. Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+                      dolor.`,
+      img: TestimonialPic2,
+      name: "Noob Billal",
+      designation: "CEO,workstation",
+    },
+    {
+      description: ` Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Omnis veniam consequuntur eaque, aut rem quia ipsam. Lorem
+                      ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+                      dolor.`,
+      img: TestimonialPic3,
+      name: "Bot Billal",
+      designation: "CEO,workstation",
+    },
+  ];
 
   return (
     <>
@@ -40,25 +69,23 @@ export default function Testimonial() {
             </div>
             <div className="TestimonialSlider">
               <Slider {...settings}>
-                <div className="SliderItem">
-                  <div className="SliderTop">
-                    <p className="sliderDescription">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Omnis veniam consequuntur eaque, aut rem quia ipsam. Lorem
-                      ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-                      dolor.
-                    </p>
-                  </div>
-                  <div className="sliderBottom">
-                    <div className="sliderImg">
-                      <img src={TestimonialPic1} alt="TestimonialPic1" />
+                {UserData.map((ele, index) => (
+                  <div className="SliderItem" key={index}>
+                    <div className="SliderTop">
+                      <p className="sliderDescription">{ele.description}</p>
                     </div>
-                    <div className="sliderName">
-                      <p className="sliderNamespan">john doe</p>
-                      <p className="sliderNamespan2">CEO,workstation</p>
+                    <div className="sliderBottom">
+                      <div className="sliderImg">
+                        <img src={ele.img} alt="TestimonialPic1" />
+                      </div>
+                      <div className="sliderName">
+                        <p className="sliderNamespan">{ele.name}</p>
+
+                        <p className="sliderNamespan2">{ele.designation}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                ))}
               </Slider>
             </div>
           </div>
