@@ -18,11 +18,17 @@
   margin-bottom: 34px;
 }
 
+.serviceCardContainer {
+  /* background-color: blue; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+}
+
 .cardContrainer {
   /* border: 1px solid red; */
-  width: 22%;
   background: var(--card-bg);
-
   padding: 15px;
   border-radius: 6px;
   cursor: pointer;
@@ -38,13 +44,9 @@
   transform: translateY(-7px);
 }
 
-.serviceCardContainer {
-  display: flex;
-  justify-content: space-around;
-}
-
 .cardTop {
   background: var(--icon-bg);
+  /* background-color: aqua; */
   width: 50px;
   height: 50px;
   display: flex;
@@ -85,4 +87,44 @@
 .bottomDescription {
   color: var(--heading-color);
   font-size: 0.9rem;
+}
+
+/* media query  */
+
+@media (max-width: 980px) {
+  .cardContrainer {
+    padding: 9px;
+    border-radius: 5px;
+  }
+
+  .cardTop {
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 790px) {
+  .serviceCardContainer {
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-gap: 14px;
+  }
+
+  .cardContrainer {
+    padding: 12px;
+    border-radius: 5px;
+  }
+
+  .cardTop {
+    margin-top: 7px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 460px) {
+  .serviceCardContainer {
+    grid-template-columns: repeat(1, 0.8fr);
+    grid-gap: 14px;
+  }
 }

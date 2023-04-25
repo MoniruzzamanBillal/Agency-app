@@ -3,7 +3,6 @@
   z-index: 999;
   width: 100%;
   margin: auto;
-  align-items: center;
   background: var(--body-bg);
 }
 
@@ -51,7 +50,7 @@
   display: flex;
   justify-content: space-around;
   padding-right: 5px;
-  color: var(--btn-primary-bg);
+  color: var(--primary-color);
 }
 
 .changeTheme {
@@ -74,6 +73,8 @@
   cursor: pointer;
 }
 
+/* media query for responsiveness  */
+
 @media (max-width: 860px) {
   .Menu {
     display: none;
@@ -81,11 +82,15 @@
     padding: 20px 0;
     margin-left: 200%;
     position: absolute;
-    top: -5px;
-    left: 54%;
+    left: 50%;
+    top: 30px;
     background: #0e2431;
-    transform: translate(35%, 10%);
+    transform: translate(50%, 0%);
     transition: all 0.5s;
+  }
+
+  .light-theme .Menu {
+    background: #bddbf5;
   }
 
   .Menu.MobileMenuLink {
@@ -102,5 +107,49 @@
 
   .HamBurgerMenu {
     display: inline-block;
+  }
+}
+
+@media (max-width: 530px) {
+  .navContainer {
+    /* background-color: rgb(255, 30, 0); */
+    width: 100%;
+    line-height: 35px;
+  }
+
+  .HamBurgerMenu {
+    width: 38px;
+    height: 38px;
+  }
+
+  .Menu {
+    width: 30vw;
+    left: 60%;
+    top: 19px;
+    transform: translate(50%, 0%);
+  }
+
+  .changeTheme {
+    /* background-color: blue; */
+    font-size: 0.8rem;
+  }
+  .changeTheme i {
+    margin-right: 2px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .Menu {
+    width: 30vw;
+    left: 76%;
+    top: 19px;
+    transform: translate(50%, 0%);
+  }
+}
+
+@media (max-width: 349px) {
+  .Menu {
+    width: 35vw;
   }
 }

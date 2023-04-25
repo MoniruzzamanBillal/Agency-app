@@ -16,8 +16,7 @@ const CardInfo = [
     title: "Web Development",
     description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Molestiae, nam ut! Esse hic voluptatum, deserunt impedit
-                    neque quis! Odit ipsum voluptatum sunt, perferendis
-                    doloribus.`,
+                    neque quis! Odit ipsum voluptatum sunt.`,
   },
   {
     // <i class="ri-landscape-line"></i>
