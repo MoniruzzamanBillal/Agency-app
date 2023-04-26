@@ -8,10 +8,12 @@
 
 .navContainer {
   margin: auto;
-  width: 90%;
+  width: 100%;
   line-height: 60px;
-  box-shadow: rgba(99, 99, 241, 0.25) 0px 50px 100px -20px,
-    rgba(236, 99, 99, 0.3) 0px 30px 60px -30px;
+  /* box-shadow: rgba(99, 99, 241, 0.25) 0px 50px 100px -20px,
+    rgba(236, 99, 99, 0.3) 0px 30px 60px -30px; */
+  box-shadow: rgba(134, 134, 244, 0.75) 0px 50px 100px -20px,
+    rgba(247, 84, 84, 0.5) 0px 30px 60px -30px;
 }
 
 .NavWrapper {
@@ -77,14 +79,14 @@
 
 @media (max-width: 860px) {
   .Menu {
+    background: #0e2431;
     display: none;
     width: 30vw;
     padding: 20px 0;
     margin-left: 200%;
     position: absolute;
-    left: 50%;
+    left: 60%;
     top: 30px;
-    background: #0e2431;
     transform: translate(50%, 0%);
     transition: all 0.5s;
   }
@@ -112,7 +114,6 @@
 
 @media (max-width: 530px) {
   .navContainer {
-    /* background-color: rgb(255, 30, 0); */
     width: 100%;
     line-height: 35px;
   }
@@ -130,7 +131,6 @@
   }
 
   .changeTheme {
-    /* background-color: blue; */
     font-size: 0.8rem;
   }
   .changeTheme i {

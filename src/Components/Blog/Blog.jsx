@@ -1,7 +1,7 @@
 import React from "react";
 import "./Blog.css";
 import videoImage from "../../images/video.png";
-import ArticleImg from "../../images/article.png";
+import ArticleImg from "../../images/case-study.png";
 import CaseStudyImg from "../../images/case-study.png";
 
 const BlogCardInfo = [
