@@ -12,8 +12,7 @@ import Service from "./Components/Service/Service";
 import Testimonial from "./Components/Testimonial/Testimonial";
 
 function App() {
-  const [theme, changeTheme] = useState(" ");
-  // const [theme, changeTheme] = useState("light-theme");
+  const [theme, changeTheme] = useState("light-theme");
 
   function ToggleTheme() {
     console.log("theme click");

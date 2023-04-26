@@ -139,6 +139,21 @@
   }
 }
 
+@media (max-width: 431px) {
+  .navContainer {
+    line-height: 22px;
+  }
+
+  .logo h1 a {
+    font-size: 1.5rem;
+  }
+  .navRight {
+    width: 75%;
+    margin: auto;
+    align-items: center;
+  }
+}
+
 @media (max-width: 420px) {
   .Menu {
     width: 30vw;

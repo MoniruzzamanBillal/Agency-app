@@ -29,7 +29,6 @@
 .FooterBottomContainer {
   text-align: center;
   color: var(--small-text-color);
-
   padding: 6px 0;
 }
 
@@ -53,4 +52,45 @@
 .FooterUl li a {
   font-size: 1rem;
   font-weight: 400;
+}
+
+/* media query  */
+@media (max-width: 1025px) {
+  .FooterTopFirstBottom {
+    line-height: 22px;
+  }
+
+  .FooterTopContainer {
+    margin-bottom: 20px;
+    padding: 2px;
+  }
+}
+
+@media (max-width: 860px) {
+  .FooterTopContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 25px;
+    grid-gap: 12px;
+    padding: 8px;
+  }
+
+  .borderLi {
+    padding: 9px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .FooterWrapper {
+    width: 66%;
+  }
+
+  .FooterTopContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 16px;
+    grid-gap: 18px;
+    padding: 8px;
+  }
 }

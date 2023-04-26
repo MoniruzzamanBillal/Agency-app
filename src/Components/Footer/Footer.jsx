@@ -23,7 +23,7 @@ export default function Footer() {
                     </p>
                   </div>
                 </div>
-                <div className="FooterTopSecond border">
+                <div className="FooterTopSecond border borderLi">
                   <div className="TopSecondContainer">
                     <ul className="FooterUl">
                       <li className="FooterHighlight">
@@ -43,7 +43,7 @@ export default function Footer() {
                   </div>
                 </div>
 
-                <div className="FooterTopThird border">
+                <div className="FooterTopThird border borderLi">
                   <div className="TopThirdContainer">
                     <ul className="FooterUl">
                       <li className="FooterHighlight">
@@ -63,7 +63,7 @@ export default function Footer() {
                   </div>
                 </div>
 
-                <div className="FooterTopFourth border">
+                <div className="FooterTopFourth border borderLi">
                   <div className="TopFourthContainer">
                     <ul className="FooterUl">
                       <li className="FooterHighlight">
