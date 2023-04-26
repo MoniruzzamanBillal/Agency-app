@@ -4,24 +4,24 @@
 
 .TestimonialWrapper {
   padding: 8px;
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
 .TestimonialTop {
   text-align: center;
-  width: 50%;
+  width: 59%;
   margin: auto;
 }
 
 .TestimonialTopHeadingDescription {
   color: var(--primary-color);
-  padding-bottom: 12px;
+  padding-bottom: 7px;
   font-size: 1.1rem;
 }
 
 .TestimonialTopDescription {
-  margin-bottom: 35px;
+  margin-bottom: 28px;
   font-size: 0.8rem;
 }
 
@@ -30,34 +30,31 @@
 }
 
 .TestimonialSlider {
-  /* border: 1px solid black; */
   background: var(--testimonial-bg);
   text-align: center;
-  padding: 20px;
-  width: 57%;
+  padding: 14px;
+  width: 66%;
   margin: auto;
   border-radius: 7px;
 }
 
 .SliderTop {
-  /* border: 1px solid black; */
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   line-height: 24px;
   color: var(--small-text-color);
 }
 
 .sliderBottom {
-  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px 4px;
-  width: 80%;
+  padding: 5px 4px;
+  width: 100%;
+
   margin: auto;
 }
 
 .sliderImg {
-  /* border: 1px solid black; */
   width: 55px;
   height: 55px;
 }
@@ -75,10 +72,37 @@
 .sliderNamespan {
   color: var(--link-color);
   font-size: 1rem;
-  padding-bottom: 6px;
+  padding-bottom: 5px;
 }
 
 .sliderNamespan2 {
   color: var(--small-text-color);
   font-size: 0.8rem;
+}
+
+@media (max-width: 900px) {
+  .TestimoniualContainer {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 780px) {
+  .TestimonialTop {
+    text-align: center;
+    width: 76%;
+    margin: auto;
+  }
+  .TestimonialSlider {
+    text-align: center;
+    padding: 10px;
+    width: 88%;
+    margin: auto;
+    border-radius: 7px;
+  }
+}
+
+@media (max-width: 620px) {
+  .SliderTop {
+    line-height: 22px;
+  }
 }
